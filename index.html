@@ -57,7 +57,7 @@
 
   <p class="text-gray-700 leading-relaxed text-justify">
     I have successfully completed internships at <strong>Next24Tech</strong> (Data Science) and <strong>Codetech IT Solutions</strong> (Machine Learning), 
-    where I worked on real-world projects involving data analytics, predictive modeling, and AI-based solutions. 
+    where I worked on real-world projects involving data analytics, predictive modeling and AI-based solutions. 
     My internship certificates and offer letters are available for verification.
   </p>
 </section>
@@ -87,23 +87,81 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects">
-      <h2 class="text-2xl font-bold mb-4">Projects</h2>
-      <ul class="list-disc list-inside space-y-2 text-gray-700">
-        <li><a href="https://github.com/kmaheshreddie-tech/MSE.git" class="text-blue-600 hover:underline" target="_blank"><strong>Medicine Search Engine (MSE):</strong></a> Search engine to just medicine in local pharamcys in emergency cases.</li>
-        <li><a href="https://github.com/kmaheshreddie-tech/pixel-Perfect.git" class="text-blue-600 hover:underline" target="_blank"><strong>Pixel Perfect:</strong></a> Photography competition website with with two different pages like admin panel & live voting with emails based.</li>
-        <li><a href="https://github.com/kmaheshreddie-tech/IPL-win-predector-.git" class="text-blue-600 hover:underline" target="_blank"><strong>IPL Win Predictor:</strong></a> ML-based prediction system for IPL match outcomes based on teh overs and runs.</li>
-        <li><a href="https://github.com/kmaheshreddie-tech/Survey-project-.git" class="text-blue-600 hover:underline" target="_blank"><strong>Survey Project:</strong></a> Voting & survey platform where the survey data is entered and analysed .</li>
-        <li><strong>Student & Tutor Web App:</strong> Q&A platform where students post questions and tutors provide answers, with authentication and database integration.</li>
-        <li><strong>Android Apps:</strong> Built 11 Android apps covering basic UI, CRUD, API calls and simple usecases.</li>
-      </ul>
-    </section>
+<section id="projects" class="max-w-5xl mx-auto">
+  <h2 class="text-2xl font-bold mb-6 text-center">Projects</h2>
+
+  <div class="grid md:grid-cols-2 gap-6">
+    <!-- MSE Project -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">
+        <a href="https://github.com/kmaheshreddie-tech/MSE.git" target="_blank" class="text-blue-600 hover:underline">Medicine Search Engine (MSE)</a>
+      </h3>
+      <p class="text-gray-700">
+       Medicine Search Engine (MSE) is a web-based platform designed to make finding medicines fast and reliable during emergencies. Pharmacists can upload their medicine inventory into the system using a secure admin panel. Each entry includes details such as medicine name, brand, quantity and availability status. This data is stored in a MongoDB database, making it easy to update and manage in real time.
+
+On the user side, customers can search for medicines by name and instantly view which nearby pharmacies have them in stock. The system retrieves data dynamically from the database and displays it in a clean, user-friendly interface built with HTML, CSS and Flask. This ensures users can quickly find what they need without manually calling multiple pharmacies.
+      </p>
+    </div>
+
+    <!-- Pixel Perfect -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">
+        <a href="https://github.com/kmaheshreddie-tech/pixel-Perfect.git" target="_blank" class="text-blue-600 hover:underline">Pixel Perfect</a>
+      </h3>
+      <p class="text-gray-700">
+     Pixel Perfect is an interactive photography competition platform designed to manage submissions, enable student participation and ensure fair voting. The admin panel allows organizers to upload photos, assign unique numbers and track real-time votes. It also provides a dashboard view to monitor participation, identify which students have not voted and display leading entries.
+
+On the student side, participants can log in using their verified email, browse all submissions and vote for their favorite entry. The platform ensures one vote per student and updates results instantly. Built with HTML, CSS, Flask and MongoDB, Pixel Perfect creates an engaging experience by combining competition management and live result tracking in a seamless interface.
+      </p>
+    </div>
+
+    <!-- IPL Win Predictor -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">
+        <a href="https://github.com/kmaheshreddie-tech/IPL-win-predector-.git" target="_blank" class="text-blue-600 hover:underline">IPL Win Predictor</a>
+      </h3>
+      <p class="text-gray-700">
+IPL Win Predictor is a machine learning-based application that predicts the probability of a team winning an IPL match based on live match data. Users can input details such as batting team, bowling team, current score, overs completed and wickets fallen. The model then calculates the winning probability in real-time, helping cricket fans analyze the match dynamically.
+
+The system is built using Python, Pandas and Scikit-learn, trained on historical IPL data to ensure accuracy. It provides instant, visually appealing results, making it a great tool for enthusiasts to evaluate match outcomes and enhance their cricket-watching experience.      </p>
+    </div>
+
+    <!-- Survey Project -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">
+        <a href="https://github.com/kmaheshreddie-tech/Survey-project-.git" target="_blank" class="text-blue-600 hover:underline">Survey Project</a>
+      </h3>
+      <p class="text-gray-700">
+Survey Project is a web-based platform designed to collect, store and analyze survey data efficiently. Admins can create custom surveys, upload them to the platform and share them with participants. Students or users can log in, submit their responses securely and ensure that each response is tracked to avoid duplication.
+
+The project uses HTML, CSS, JavaScript for the frontend, Flask for backend processing and MongoDB for storing all survey data. Admins can view real-time results, analyze response patterns and generate insights for decision-making. This makes it a simple yet powerful tool for conducting department-wide surveys, polls or feedback sessions.      </p>
+    </div>
+
+    <!-- Student & Tutor Web App -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Student & Tutor Web App</h3>
+      <p class="text-gray-700">
+The Student and Tutor Web App is an interactive platform designed to seamlessly connect students with qualified tutors for personalized learning. Students can create profiles, browse tutors based on subjects or expertise and schedule sessions according to their convenience. The platform supports features like live video lessons, chat-based doubt solving and progress tracking, ensuring that learners receive a structured and engaging educational experience. Additionally, students can rate and provide feedback on tutors, helping maintain the quality of teaching and enabling informed choices for future learners.
+
+On the other side, tutors can create professional profiles highlighting their qualifications, areas of expertise and available time slots. They can manage their schedules, conduct live sessions and monitor student progress through analytics and performance reports. The app also integrates secure payment gateways, automated session reminders and learning resources, making it a comprehensive solution for both teaching and learning. By bridging the gap between students and educators, the platform promotes flexible, efficient and accessible education for everyone.      </p>
+    </div>
+
+    <!-- Android Apps -->
+    <div class="bg-white p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h3 class="text-xl font-semibold mb-2">Android Studio Apps</h3>
+      <p class="text-gray-700">
+I have developed a series of 11 Android applications, each focusing on different functionalities ranging from productivity tools to entertainment and utility apps. These projects allowed us to gain hands-on experience in Android development, including designing intuitive user interfaces, integrating APIs and implementing features like notifications, data storage and user authentication.
+
+Through these apps, we explored both frontend and backend development on mobile platforms, enhancing our understanding of Java/Kotlin, XML layouts and app lifecycle management. This extensive practice has strengthened our skills in building functional, user-friendly and scalable Android applications from concept to deployment.      </p>
+    </div>
+  </div>
+</section>
 
     <!-- Experience Section -->
     <section id="experience">
       <h2 class="text-2xl font-bold mb-4">Experience</h2>
       <ul class="list-disc list-inside space-y-2 text-gray-700">
-        <li><strong>Next24Tech – Data Science Intern:</strong> Worked on House Price Prediction, Recommendation Systems, and Sentiment Analysis. 
+        <li><strong>Next24Tech – Data Science Intern:</strong> Worked on House Price Prediction, Recommendation Systems and Sentiment Analysis. 
           <a href="https://github.com/kmaheshreddie-tech/Next24-intern-certificate-.git" target="_blank" class="text-blue-600 hover:underline">View Certificates</a>
         </li>
         <li><strong>Codtech IT Solutions – ML Intern:</strong> Built and trained ML models to solve business problems using real-world datasets. 
